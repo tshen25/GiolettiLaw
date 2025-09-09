@@ -34,8 +34,6 @@
   
 	// Initialize
 	updateCarousel();
-  
-  
         
 	// Script for Mobile Toggle 
 	
