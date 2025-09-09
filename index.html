@@ -84,75 +84,81 @@
   </section>
 
   <!-- Why Us-->
-  <section id="whyus" class="py-20 h-screen flex flex-col justify-center">
-	<div class="container mx-auto px-6 md:flex md:items-center md:gap-12">
-	  <!-- Left: Image -->
-	  <div class="md:w-1/2 mb-8 md:mb-0">
-		<img src="assets/images/podium.jpg" alt="Podium" data-aos="fade-right" class="w-full h-auto rounded-lg shadow-lg">
-	  </div>
+  <section id="whyus" class="py-20 min-h-screen md:h-screen flex flex-col justify-center">
+    <div class="container mx-auto px-6 md:flex md:items-center md:gap-12">
+      <!-- Left: Image -->
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <img src="assets/images/podium.jpg" alt="Podium" data-aos="fade-right" class="w-full h-auto rounded-lg shadow-lg">
+      </div>
   
-	  <!-- Right: Text -->
-	  <div class="md:w-1/2">
-		<h2 class="text-4xl font-bold mb-4">Over 20 Years of Experience</h2>
-		<p class="text-gray-700 font-bold mb-4">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec est id massa
-		  volutpat tincidunt. Suspendisse potenti. Duis in lorem nec nulla facilisis
-		  sollicitudin.
-		</p>
-		<p class="text-gray-700">
-		  Sed euismod, nisl at convallis consectetur, justo purus commodo urna, at varius
-		  nisi lorem eget sapien. Pellentesque habitant morbi tristique senectus et netus.
-		</p>
-	  </div>
-	</div>
+      <!-- Right: Text -->
+      <div class="md:w-1/2">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Over 20 Years of Experience</h2>
+        <p class="text-gray-700 font-bold mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec est id massa
+          volutpat tincidunt. Suspendisse potenti. Duis in lorem nec nulla facilisis
+          sollicitudin.
+        </p>
+        <p class="text-gray-700">
+          Sed euismod, nisl at convallis consectetur, justo purus commodo urna, at varius
+          nisi lorem eget sapien. Pellentesque habitant morbi tristique senectus et netus.
+        </p>
+      </div>
+    </div>
   </section>
   
 
   <!-- Services -->
-  <section id="services" class="py-16 bg-gray-50 h-screen flex flex-col justify-center items-center text-center">
-	<div class="max-w-6xl mx-auto px-6">
-	  <h2 class="text-3xl font-bold text-center mb-12">Our Practice Areas</h2>
-	  <div class="grid gap-8 md:grid-cols-2 font-cast">
-		<a href="/html/practices/practices_content/enforcement.html" class="block">
-			<div class="border-2 border-blue-600 p-6 shadow-md 
-					transition-all duration-300 ease-in-out 
-					hover:border-transparent hover:shadow-xl bg-white h-56
-					flex flex-col justify-center items-center text-center">
-		  <h3 class="text-2xl text-blue-600 mb-4">Fair Housing Enforcement</h3>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-		</a>
-		<a href="/html/practices/practices_content/advocacy.html" class="block">
-			<div class="border-2 border-blue-600 p-6 shadow-md 
-					transition-all duration-300 ease-in-out 
-					hover:border-transparent hover:shadow-xl bg-white h-56
-					flex flex-col justify-center items-center text-center">
-		  <h3 class="text-2xl text-blue-600 mb-4">Accessibility Advocacy</h3>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-		</a>
+  <section id="services" class="py-16 bg-gray-50 min-h-screen md:h-screen flex flex-col justify-center items-center text-center">
+    <div class="max-w-6xl mx-auto px-6 w-full">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">Our Practice Areas</h2>
+      <div class="grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-2 font-cast">
+        
+        <!-- Card 1 -->
+        <a href="/html/practices/practices_content/enforcement.html" class="block">
+          <div class="border-2 border-blue-600 p-4 md:p-6 shadow-md 
+                      transition-all duration-300 ease-in-out 
+                      hover:border-transparent hover:shadow-xl bg-white 
+                      h-48 md:h-56 flex flex-col justify-center items-center text-center">
+            <h3 class="text-lg md:text-2xl text-blue-600 mb-2 md:mb-4">Fair Housing Enforcement</h3>
+            <p class="text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </a>
+        
+        <!-- Card 2 -->
+        <a href="/html/practices/practices_content/advocacy.html" class="block">
+          <div class="border-2 border-blue-600 p-4 md:p-6 shadow-md 
+                      transition-all duration-300 ease-in-out 
+                      hover:border-transparent hover:shadow-xl bg-white 
+                      h-48 md:h-56 flex flex-col justify-center items-center text-center">
+            <h3 class="text-lg md:text-2xl text-blue-600 mb-2 md:mb-4">Accessibility Advocacy</h3>
+            <p class="text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </a>
 
-		<a href="/html/practices/practices_content/compliance.html" class="block">
-			<div class="border-2 border-blue-600 p-6 shadow-md 
-					transition-all duration-300 ease-in-out 
-					hover:border-transparent hover:shadow-xl bg-white h-56
-					flex flex-col justify-center items-center text-center">
-		  <h3 class="text-2xl text-blue-600 mb-4">Compliance for Housing Providers</h3>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-		</a>
+        <!-- Card 3 -->
+        <a href="/html/practices/practices_content/compliance.html" class="block">
+          <div class="border-2 border-blue-600 p-4 md:p-6 shadow-md 
+                      transition-all duration-300 ease-in-out 
+                      hover:border-transparent hover:shadow-xl bg-white 
+                      h-48 md:h-56 flex flex-col justify-center items-center text-center">
+            <h3 class="text-lg md:text-2xl text-blue-600 mb-2 md:mb-4">Compliance for Housing Providers</h3>
+            <p class="text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </a>
 
-		<a href="/html/practices/practices_content/training.html" class="block">
-			<div class="border-2 border-blue-600 p-6 shadow-md 
-					transition-all duration-300 ease-in-out 
-					hover:border-transparent hover:shadow-xl bg-white h-56
-					flex flex-col justify-center items-center text-center">
-		  <h3 class="text-2xl text-blue-600 mb-4">Fair Housing Training Courses</h3>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-		</a>
-	  </div>
-	</div>
+        <!-- Card 4 -->
+        <a href="/html/practices/practices_content/training.html" class="block">
+          <div class="border-2 border-blue-600 p-4 md:p-6 shadow-md 
+                      transition-all duration-300 ease-in-out 
+                      hover:border-transparent hover:shadow-xl bg-white 
+                      h-48 md:h-56 flex flex-col justify-center items-center text-center">
+            <h3 class="text-lg md:text-2xl text-blue-600 mb-2 md:mb-4">Fair Housing Training Courses</h3>
+            <p class="text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </a>
+      </div>
+    </div>
   </section>
 
   <!-- About Us-->
