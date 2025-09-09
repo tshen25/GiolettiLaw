@@ -1,0 +1,41 @@
+    /* Create Font */
+    @font-face {
+      font-family: 'Castoro';
+	  src: 
+	  url('/assets/fonts/Castoro-Regular.ttf') format('truetype');
+      font-family: 'Friz Quadrata';
+      src: 
+	  url('assets/fonts/FrizQuadrataRegular.ttf') format('truetype');
+    }
+
+    /* create a utility class */
+	.font-cast {
+		font-family: 'Castoro, serif';
+	}
+    .font-friz {
+      font-family: 'Friz Quadrata', serif;
+    }
+
+	html {
+    scroll-behavior: smooth;
+  }
+
+
+    /* Clip Path Responsive*/
+    .desktop-clip {
+      background-image: url('/assets/images/rowhouses.jpg');
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 37% 41%);
+    }
+    
+    /* Mobile clip-path (rotated 90 degrees anticlockwise) */
+    .mobile-clip {
+      background-image: url('/assets/images/rowhouses.jpg');
+      clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%, 49% 81%);
+    }
+    
+    /* Media query for responsive behavior */
+    @media (min-width: 768px) {
+      .mobile-clip {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 37% 41%);
+      }
+    }

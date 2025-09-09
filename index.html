@@ -7,93 +7,73 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/b4f3030e31.js" crossorigin="anonymous"></script>
-  <style>
-    @font-face {
-      font-family: 'Castoro';
-	  src: 
-	  url('/assets/fonts/Castoro-Regular.ttf') format('truetype');
-      font-family: 'Friz Quadrata';
-      src: 
-	  url('assets/fonts/FrizQuadrataRegular.ttf') format('truetype');
-    }
-
-    /* create a utility class */
-	.font-cast {
-		font-family: 'Castoro, serif';
-	}
-    .font-friz {
-      font-family: 'Friz Quadrata', serif;
-    }
-
-	html {
-    scroll-behavior: smooth;
-  }
-  </style>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/script.js"></script>
+  <script src="https://kit.fontawesome.com/b4f3030e31.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="font-sans text-gray-800 scroll-smooth">
 
   <!-- Navbar -->
-<section class="sticky top-0 z-50 navbar bg-gray-900 text-white shadow-md">
-	<nav class="container mx-auto flex items-center justify-between py-4 px-4 md:px-6">
-	  
-	  <!-- Left: Logo -->
-	  <a href="#" class="logo">
-		<img src="assets/logo.png.webp" alt="Law Firm Logo" class="h-10">
-	  </a>
-  
-	  <!-- Desktop Nav Links -->
-	  <ul class="hidden md:flex space-x-6">
-		<li><a href="/index.html" class="hover:text-gray-300">Home</a></li>
-		<li><a href="#insights" class="hover:text-gray-300">Blog</a></li>
-		<li><a href="/html/about.html" class="hover:text-gray-300">About</a></li>
+	<section class="sticky top-0 z-50 navbar bg-gray-900 text-white shadow-md">
+		<nav class="container mx-auto flex items-center justify-between py-4 px-4 md:px-6">
 		
-		<!-- Dropdown -->
-		<li class="relative group">
-		  <a href="#services" class="hover:text-gray-300">Practice Areas</a>
-		  <ul class="absolute left-0 top-full hidden bg-white text-black shadow-lg 
-					 group-hover:block z-50">
-			<li><a href="/html/practices/practices_content/enforcement.html" class="block px-4 py-2 hover:bg-gray-200">Fair Housing Enforcement</a></li>
-			<li><a href="/html/practices/practices_content/advocacy.html" class="block px-4 py-2 hover:bg-gray-200">Accessibility Advocacy</a></li>
-			<li><a href="/html/practices/practices_content/compliance.html" class="block px-4 py-2 hover:bg-gray-200">Compliance for Housing Providers</a></li>
-			<li><a href="/html/practices/practices_content/training.html" class="block px-4 py-2 hover:bg-gray-200">Fair Housing Training Courses</a></li>
-		  </ul>
-		</li>
-  
-		<li><a href="/html/contact.html" class="hover:text-gray-300">Contact</a></li>
-	  </ul>
-  
-	  <!-- Mobile Burger Button -->
-	  <button id="menu-btn" class="md:hidden focus:outline-none">
-		<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" 
-			 viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-		  <path d="M4 6h16M4 12h16M4 18h16" />
-		</svg>
-	  </button>
-	</nav>
-  
-	<!-- Mobile Menu (hidden by default) -->
-	<div id="mobile-menu" class="hidden md:hidden bg-gray-800 text-white">
-	  <ul class="flex flex-col space-y-2 p-4">
-		<li><a href="/index.html" class="hover:text-gray-300">Home</a></li>
-		<li><a href="/html/blog/blog.html" class="hover:text-gray-300">Blog</a></li>
-		<li><a href="/html/about.html" class="hover:text-gray-300">About</a></li>
-		<li>
-		  <details class="group">
-			<summary class="cursor-pointer hover:text-gray-300">Practice Areas</summary>
-			<ul class="ml-4 mt-2 space-y-2">
-			  <li><a href="/html/practices/practices_content/enforcement.html" class="block hover:text-gray-300">Fair Housing Enforcement</a></li>
-			  <li><a href="/html/practices/practices_content/advocacy.html" class="block hover:text-gray-300">Accessibility Advocacy</a></li>
-			  <li><a href="/html/practices/practices_content/compliance.html" class="block hover:text-gray-300">Compliance for Housing Providers</a></li>
-			  <li><a href="/html/practices/practices_content/training.html" class="block hover:text-gray-300">Fair Housing Training Courses</a></li>
+		<!-- Left: Logo -->
+		<a href="#" class="logo">
+			<img src="assets/logo.png.webp" alt="Law Firm Logo" class="h-10">
+		</a>
+	
+		<!-- Desktop Nav Links -->
+		<ul class="hidden md:flex space-x-6">
+			<li><a href="/index.html" class="hover:text-gray-300">Home</a></li>
+			<li><a href="#insights" class="hover:text-gray-300">Blog</a></li>
+			<li><a href="/html/about.html" class="hover:text-gray-300">About</a></li>
+			
+			<!-- Dropdown -->
+			<li class="relative group">
+			<a href="#services" class="hover:text-gray-300">Practice Areas</a>
+			<ul class="absolute left-0 top-full hidden bg-white text-black shadow-lg 
+						group-hover:block z-50">
+				<li><a href="/html/practices/practices_content/enforcement.html" class="block px-4 py-2 hover:bg-gray-200">Fair Housing Enforcement</a></li>
+				<li><a href="/html/practices/practices_content/advocacy.html" class="block px-4 py-2 hover:bg-gray-200">Accessibility Advocacy</a></li>
+				<li><a href="/html/practices/practices_content/compliance.html" class="block px-4 py-2 hover:bg-gray-200">Compliance for Housing Providers</a></li>
+				<li><a href="/html/practices/practices_content/training.html" class="block px-4 py-2 hover:bg-gray-200">Fair Housing Training Courses</a></li>
 			</ul>
-		  </details>
-		</li>
-		<li><a href="/html/contact.html" class="hover:text-gray-300">Contact</a></li>
-	  </ul>
-	</div>
-  </section>
+			</li>
+	
+			<li><a href="/html/contact.html" class="hover:text-gray-300">Contact</a></li>
+		</ul>
+	
+		<!-- Mobile Burger Button -->
+		<button id="menu-btn" class="md:hidden focus:outline-none">
+			<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" 
+				viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M4 6h16M4 12h16M4 18h16" />
+			</svg>
+		</button>
+		</nav>
+	
+		<!-- Mobile Menu (hidden by default) -->
+		<div id="mobile-menu" class="hidden md:hidden bg-gray-800 text-white">
+		<ul class="flex flex-col space-y-2 p-4">
+			<li><a href="/index.html" class="hover:text-gray-300">Home</a></li>
+			<li><a href="/html/blog/blog.html" class="hover:text-gray-300">Blog</a></li>
+			<li><a href="/html/about.html" class="hover:text-gray-300">About</a></li>
+			<li>
+			<details class="group">
+				<summary class="cursor-pointer hover:text-gray-300">Practice Areas</summary>
+				<ul class="ml-4 mt-2 space-y-2">
+				<li><a href="/html/practices/practices_content/enforcement.html" class="block hover:text-gray-300">Fair Housing Enforcement</a></li>
+				<li><a href="/html/practices/practices_content/advocacy.html" class="block hover:text-gray-300">Accessibility Advocacy</a></li>
+				<li><a href="/html/practices/practices_content/compliance.html" class="block hover:text-gray-300">Compliance for Housing Providers</a></li>
+				<li><a href="/html/practices/practices_content/training.html" class="block hover:text-gray-300">Fair Housing Training Courses</a></li>
+				</ul>
+			</details>
+			</li>
+			<li><a href="/html/contact.html" class="hover:text-gray-300">Contact</a></li>
+		</ul>
+		</div>
+	</section>
 
   <!-- Hero-->
   <section class="hero bg-gradient-to-r from-indigo-900 to-blue-500 text-white h-screen flex flex-col justify-center items-center text-center">
@@ -177,31 +157,34 @@
   </section>
 
   <!-- About Us-->
-  <section class="bg-gradient-to-r from-gray-900 to-gray-700 h-screen flex">
-	<!-- Left side with image -->
-	<div class="w-1/2 h-full flex items-center text-white">
-		<div data-aos="fade-up" class="p-12 max-w-lg ml-12">
-		  <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">
-			About Us
-		  </h2>
-		  <h1 class="text-4xl font-bold leading-snug mb-6">
-			Our Story
-		  </h1>
-		  <p class="text-lg text-gray-300">
-			We are a team committed to delivering innovative solutions 
-			with a focus on design, technology, and impact. Our work 
-			bridges creativity with functionality to build meaningful 
-			experiences.
-		  </p>
-		</div>
-	  </div>
-  
-	<!-- Right side text -->
-	<div 
-	  class="w-1/2 h-full bg-cover bg-center"
-	  style="background-image: url('/assets/images/rowhouses.jpg');
-			 clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 37% 41%)">
-	</div>
+  <section class="bg-gradient-to-r from-gray-900 to-gray-700 
+                  h-screen flex flex-col md:flex-row">
+    
+    <!-- Text Content - Desktop: Left, Mobile: Bottom -->
+    <div class="w-full md:w-1/2 h-1/2 md:h-full 
+                flex items-center text-white 
+                order-2 md:order-1">
+      <div data-aos="fade-up" class="p-6 md:p-12 max-w-lg mx-auto md:ml-12">
+        <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">
+          About Us
+        </h2>
+        <h1 class="text-3xl md:text-4xl font-bold leading-snug mb-6">
+          Our Story
+        </h1>
+        <p class="text-base md:text-lg text-gray-300">
+          We are a team committed to delivering innovative solutions 
+          with a focus on design, technology, and impact. Our work 
+          bridges creativity with functionality to build meaningful 
+          experiences.
+        </p>
+      </div>
+    </div>
+    <!-- Image - Desktop: Right, Mobile: Top -->
+    <div class="w-full md:w-1/2 h-1/2 md:h-full 
+                bg-cover bg-center 
+                order-1 md:order-2
+                mobile-clip md:desktop-clip">
+    </div>
   </section>
   
   
@@ -352,61 +335,11 @@
 	</footer>
    </section>
 
-
-  <!-- Carousel Script -->
-  <script>
-	const carousel = document.getElementById('carousel');
-	const slides = carousel.children.length;
-	let index = 0;
-  
-	const dots = document.querySelectorAll('.dot');
-  
-	function updateCarousel() {
-	  carousel.style.transform = `translateX(-${index * 100}%)`;
-	  dots.forEach((dot, i) => {
-		dot.classList.toggle('bg-indigo-600', i === index);
-		dot.classList.toggle('bg-gray-300', i !== index);
-	  });
-	}
-  
-	document.getElementById('next').addEventListener('click', () => {
-	  index = (index + 1) % slides;
-	  updateCarousel();
-	});
-  
-	document.getElementById('prev').addEventListener('click', () => {
-	  index = (index - 1 + slides) % slides;
-	  updateCarousel();
-	});
-  
-	// 🔹 Make dots clickable
-	dots.forEach((dot, i) => {
-	  dot.addEventListener('click', () => {
-		index = i;         // set index to the clicked dot
-		updateCarousel();  // update carousel
-	  });
-	});
-  
-	// Initialize
-	updateCarousel();
-  </script>
-  
-
-  <!--AOS animation library-->
+	<!-- AOS animation library -->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
-		AOS.init();
+	AOS.init();
 	</script>
-
-	<!-- Script for Mobile Toggle -->
-<script>
-	const menuBtn = document.getElementById('menu-btn');
-	const mobileMenu = document.getElementById('mobile-menu');
-  
-	menuBtn.addEventListener('click', () => {
-	  mobileMenu.classList.toggle('hidden');
-	});
-  </script>
 
 </body>
 </html>
