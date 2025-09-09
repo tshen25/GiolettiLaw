@@ -35,7 +35,7 @@
 	// Initialize
 	updateCarousel();
         
-	// Script for Mobile Toggle 
+// Script for Mobile Toggle 
 	
 		const menuBtn = document.getElementById('menu-btn');
 		const mobileMenu = document.getElementById('mobile-menu');
