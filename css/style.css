@@ -39,3 +39,18 @@
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 37% 41%);
       }
     }
+
+    /* about page image */
+
+    .desktop-firm {
+      background-image: url('/assets/images/firm.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .mobile-firm {
+      background-image: url('/assets/images/firm.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    

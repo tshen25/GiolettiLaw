@@ -11,12 +11,12 @@ document.getElementById("navMenu").innerHTML =
 	'<!-- Desktop Nav Links -->' +
 	'<ul class="hidden md:flex space-x-6">' +
 		'<li><a href="/index.html" class="hover:text-gray-300">Home</a></li>' +
-		'<li><a href="#insights" class="hover:text-gray-300">Blog</a></li>' +
+		'<li><a href="/index.html#insights" class="hover:text-gray-300">Blog</a></li>' +
 		'<li><a href="/html/about.html" class="hover:text-gray-300">About</a></li>' +
 		
 		'<!-- Dropdown -->' +
 		'<li class="relative group">' +
-		'<a href="#services" class="hover:text-gray-300">Practice Areas</a>' +
+		'<a href="/index.html#services" class="hover:text-gray-300">Practice Areas</a>' +
 		'<ul class="absolute left-0 top-full hidden bg-white text-black shadow-lg group-hover:block z-50">' +
 			'<li><a href="/html/practices/practices_content/enforcement.html" class="block px-4 py-2 hover:bg-gray-200">Fair Housing Enforcement</a></li>' +
 			'<li><a href="/html/practices/practices_content/advocacy.html" class="block px-4 py-2 hover:bg-gray-200">Accessibility Advocacy</a></li>' +
@@ -40,7 +40,7 @@ document.getElementById("navMenu").innerHTML =
 	'<div id="mobile-menu" class="hidden md:hidden bg-gray-800 text-white">' +
 	'<ul class="flex flex-col space-y-2 p-4">' +
 		'<li><a href="/index.html" class="hover:text-gray-300">Home</a></li>' +
-		'<li><a href="/html/blog/blog.html" class="hover:text-gray-300">Blog</a></li>' +
+		'<li><a href="/index.html#insights" class="hover:text-gray-300">Blog</a></li>' +
 		'<li><a href="/html/about.html" class="hover:text-gray-300">About</a></li>' +
 		'<li>' +
 		'<details class="group">' +
