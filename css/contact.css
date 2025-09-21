@@ -5,7 +5,7 @@
 }
 body{
     font-family: outfit;
-    background: linear-gradient(#eff4ff, #f9f7ff);
+    background: #f1f4fb;
 }
 .contact-container{
     height: 100vh;
@@ -27,7 +27,7 @@ body{
 }
 .contact-left-title hr{
     border: none;
-    width: 120px;
+    width: 190px;
     height: 5px;
     background-color: #637ded;
     border-radius: 10px;
@@ -41,7 +41,7 @@ body{
     padding-left: 25px;
     font-weight: 500;
     color: #666;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .contact-left textarea{
     height: 140px;
@@ -58,13 +58,18 @@ body{
     display: flex;
     align-items: center;
     padding: 15px 30px;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
     color: #fff;
     gap: 10px;
-    border: none;
-    border-radius: 50px;
-    background: linear-gradient(270deg, #637ded, #6dd4fa);
+    border: 2px solid #637ded;
+    border-radius: 20px;
+    background: #637ded;
     cursor: pointer;
+}
+.contact-left button:hover{
+    background-color: transparent;
+    color: #637ded;
 }
 .contact-left button i{
     height: 15px;
