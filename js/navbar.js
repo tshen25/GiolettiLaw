@@ -18,8 +18,6 @@ document.getElementById("navMenu").innerHTML =
 		'<li class="relative group">' +
 		'<a href="/index.html#services" class="hover:text-gray-300">Practice Areas</a>' +
 		'<ul class="absolute left-0 top-full hidden bg-white text-black shadow-lg group-hover:block z-50">' +
-			'<li><a href="/html/practices/practices_content/enforcement.html" class="block px-4 py-2 hover:bg-gray-200">Fair Housing Enforcement</a></li>' +
-			'<li><a href="/html/practices/practices_content/advocacy.html" class="block px-4 py-2 hover:bg-gray-200">Accessibility Advocacy</a></li>' +
 			'<li><a href="/html/practices/practices_content/compliance.html" class="block px-4 py-2 hover:bg-gray-200">Compliance for Housing Providers</a></li>' +
 			'<li><a href="/html/practices/practices_content/training.html" class="block px-4 py-2 hover:bg-gray-200">Fair Housing Training Courses</a></li>' +
 		'</ul>' +
@@ -46,8 +44,6 @@ document.getElementById("navMenu").innerHTML =
 		'<details class="group">' +
 			'<summary class="cursor-pointer hover:text-gray-300">Practice Areas</summary>' +
 			'<ul class="ml-4 mt-2 space-y-2">' +
-			'<li><a href="/html/practices/practices_content/enforcement.html" class="block hover:text-gray-300">Fair Housing Enforcement</a></li>' +
-			'<li><a href="/html/practices/practices_content/advocacy.html" class="block hover:text-gray-300">Accessibility Advocacy</a></li>' +
 			'<li><a href="/html/practices/practices_content/compliance.html" class="block hover:text-gray-300">Compliance for Housing Providers</a></li>' +
 			'<li><a href="/html/practices/practices_content/training.html" class="block hover:text-gray-300">Fair Housing Training Courses</a></li>' +
 			'</ul>' +
